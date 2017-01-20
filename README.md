@@ -1,2 +1,1 @@
-# Introduction to computer science 
-### Some basic concepts with python 
+# Some basic concepts with python 
