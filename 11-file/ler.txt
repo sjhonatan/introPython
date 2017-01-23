@@ -1,0 +1,3 @@
+Esse arquivo vai ser lido pelo python
+primeira linha
+segunda linha
