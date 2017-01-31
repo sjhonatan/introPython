@@ -1,11 +1,10 @@
 """
 Jhonatan da Silva
 Last Updated version :
-Tue Jan 31 20:17:47 2017
+Tue Jan 31 21:27:09 2017
 Number of code lines: 
 15
 """
-#test
 import matplotlib.pyplot as plt
 import numpy as np
 import time
