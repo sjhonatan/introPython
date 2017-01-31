@@ -1,9 +1,9 @@
 """
 Jhonatan da Silva
 Last Updated version :
-Tue Jan 31 19:25:33 2017
+Tue Jan 31 19:26:59 2017
 Number of code lines: 
-17
+15
 """
 import matplotlib.pyplot as plt
 import numpy as np
@@ -20,5 +20,3 @@ time.sleep(2)
 
 plt.scatter(x_axis,y_axis)
 plt.show()
-
-print('new test')
