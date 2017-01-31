@@ -5,6 +5,7 @@ Tue Jan 31 19:26:59 2017
 Number of code lines: 
 15
 """
+#teste
 import matplotlib.pyplot as plt
 import numpy as np
 import time
