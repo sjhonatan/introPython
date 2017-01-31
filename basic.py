@@ -1,3 +1,10 @@
+"""
+Jhonatan da Silva
+Last Updated version :
+Tue Jan 31 19:25:33 2017
+Number of code lines: 
+17
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 import time
@@ -13,3 +20,5 @@ time.sleep(2)
 
 plt.scatter(x_axis,y_axis)
 plt.show()
+
+print('new test')

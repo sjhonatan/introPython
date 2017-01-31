@@ -1,6 +1,5 @@
 # First we initiate the class
 class Functions():
-    #
     def __init__(self):
         self.numFunctions = 3
 
