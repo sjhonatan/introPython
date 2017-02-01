@@ -18,8 +18,8 @@ def main():
     if len(arg) > 1:
         if arg[1] == 'all':
             u.getAllFilesUpdated()
-    else:
-        u.getUpdate()
+        else:
+            u.getUpdate()
 
 
 class Update():
@@ -143,8 +143,8 @@ class Update():
         for names in os.listdir():
             if '.' not in names[0]:
                 self.directories.append(names)
-        
-        for eachName in self.directories:
+
+        """for eachName in self.directories:
             try:
                 self.current = os.getcwd()
                 os.chdir('./' + eachName)
@@ -152,20 +152,32 @@ class Update():
                 if len(python) > 0:
                     for eachFile in python:
                         f = '~/anaconda3/bin/python ' +\
-                            '~/.vim/update.py ' + eachFile + \
-                            ' && git add ' + eachFile + \
-                            ' && git commit -m "update"'
+                            './../update.py ' + eachFile
+                        print(f)
                         subprocess.call(f,shell=True)
+                        f = 'sudo git add ' + eachFile
+                        print(f)
+                        subprocess.call(f,shell=True)
+                        f = 'sudo git cm -m "update"'
+                        print(f)
+                        subprocess.call(f,shell=True)
+                        #subprocess.call(f,shell=True)
                 os.chdir(self.current)
             except Exception as e:
-                pass 
-        
+                pass""" 
         for eachName in glob.glob("*.py"):
+            self.current = os.getcwd()
+            python = glob.glob("*.py")
             f = '~/anaconda3/bin/python ' +\
-            '~/.vim/update.py ' + eachName + \
-            ' && git add ' + eachName + \
-            ' && git commit -m "update"'
+                './../update.py ' + eachName
+            print(f)
             subprocess.call(f,shell=True)
-
+            f = 'sudo git add ' + eachName
+            print(f)
+            subprocess.call(f,shell=True)
+            f = 'sudo git cm -m "update"'
+            print(f)
+            subprocess.call(f,shell=True)
+ 
 if __name__ == '__main__':
     main()
