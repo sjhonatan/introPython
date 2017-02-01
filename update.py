@@ -166,8 +166,6 @@ class Update():
             except Exception as e:
                 pass""" 
         for eachName in glob.glob("*.py"):
-            self.current = os.getcwd()
-            python = glob.glob("*.py")
             f = '~/anaconda3/bin/python ' +\
                 './../update.py ' + eachName
             print(f)
