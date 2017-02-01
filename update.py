@@ -1,9 +1,9 @@
 """
 Jhonatan da Silva
 Last Updated version :
-Tue Jan 31 21:07:18 2017
+Tue Jan 31 22:47:21 2017
 Number of code lines: 
-125
+174
 """
 import sys 
 import os
@@ -167,7 +167,7 @@ class Update():
                 pass""" 
         for eachName in glob.glob("*.py"):
             f = '~/anaconda3/bin/python ' +\
-                './../update.py ' + eachName
+                './update.py ' + eachName
             print(f)
             subprocess.call(f,shell=True)
             f = 'sudo git add ' + eachName
