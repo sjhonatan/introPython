@@ -1,3 +1,10 @@
+"""
+Jhonatan da Silva
+Last Updated version :
+Tue Jan 31 22:35:35 2017
+Number of code lines: 
+67
+"""
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.patches import FancyArrowPatch

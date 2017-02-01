@@ -1,3 +1,10 @@
+"""
+Jhonatan da Silva
+Last Updated version :
+Tue Jan 31 22:35:35 2017
+Number of code lines: 
+34
+"""
 """ Based on lecture of MIT 6.00 Opencourseware """ 
 
 """ A problem that pascal and fermat try to solve is if we have a fair dice, you roll 24 times, 

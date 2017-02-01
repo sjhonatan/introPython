@@ -1,3 +1,10 @@
+"""
+Jhonatan da Silva
+Last Updated version :
+Tue Jan 31 22:35:35 2017
+Number of code lines: 
+11
+"""
 """ assumes x and y are arrays of same length
     the zip function takes two arrays and put the i-th
     element of x with the i-th element of y in a tuple """

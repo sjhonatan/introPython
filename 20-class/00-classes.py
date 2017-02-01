@@ -1,3 +1,10 @@
+"""
+Jhonatan da Silva
+Last Updated version :
+Tue Jan 31 22:35:35 2017
+Number of code lines: 
+19
+"""
 # First we initiate the class
 class Functions():
     def __init__(self):

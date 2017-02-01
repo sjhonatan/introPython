@@ -1,3 +1,10 @@
+"""
+Jhonatan da Silva
+Last Updated version :
+Tue Jan 31 22:35:35 2017
+Number of code lines: 
+3
+"""
 # Lecture on youtube 
 # https://www.youtube.com/playlist?list=PLvu-cXEstYRPZXyug9IqTJq4JtdBxXgeS
 print("Hello world!")
