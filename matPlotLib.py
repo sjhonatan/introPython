@@ -1,3 +1,10 @@
+"""
+Jhonatan da Silva
+Last Updated version :
+Tue Jan 31 22:47:21 2017
+Number of code lines: 
+21
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 
