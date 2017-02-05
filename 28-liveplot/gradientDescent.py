@@ -1,9 +1,9 @@
 """
 Jhonatan da Silva
 Last Updated version :
-Fri Feb  3 22:18:46 2017
+Sun Feb  5 11:02:55 2017
 Number of code lines: 
-62
+61
 """
 import time
 import matplotlib.pyplot as plt
@@ -65,5 +65,4 @@ class gradientDescent():
             
 gradient = gradientDescent() 
 gradient.GD()
-while True:
-    gradient.makeAnimation()
+gradient.makeAnimation()
