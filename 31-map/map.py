@@ -1,7 +1,8 @@
+#!usr/bin/env
 """
 Jhonatan da Silva
 Last Updated version :
-Fri Feb 10 16:30:29 2017
+Sun Feb 12 21:21:45 2017
 Number of code lines: 
 6
 """
